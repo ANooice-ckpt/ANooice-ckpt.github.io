@@ -80,7 +80,7 @@ redirect_from:
 
 <li><strong>Yuxiao Wang</strong>, Xiaoyue Yan, Xin Zhang*. A multi-objective optimization framework for designing green space between buildings considering indoor visual environment quality. <em>Asian Lighting Conference</em>. (2024, Best Student Paper)</li>
 
-<li><strong>王宇骁</strong>, 张昕*, 程少威, 姜建中, 蔡浩. 从照明条件到受光史：光暴露的测度与健康效应研究进展. <em>科技导报</em>, 2026.</li>
+<li><strong>王宇骁</strong>, 张昕*, 程少威, 姜建中, 蔡浩. 从照明条件到受光史：光暴露的测度与健康效应研究进展. <em>科技导报</em>. (2026)</li>
 </ul>
 
 <div class="section-title">Corresponding Author</div>
@@ -96,7 +96,7 @@ redirect_from:
 <div class="section-title">Co-Author</div>
 
 <ul>
-<li>Xiaoyue Yan, <strong>Yuxiao Wang</strong>, Weimin Zhuang. Multi-objective optimization of energy, thermal comfort and daylighting for exhibition building design based on a spatial archetype. <em>Building Simulation 2025</em>.</li>
+<li>Xiaoyue Yan, <strong>Yuxiao Wang</strong>, Weimin Zhuang. Multi-objective optimization of energy, thermal comfort and daylighting for exhibition building design based on a spatial archetype. <em>Building Simulation 2025</em>. (2025)</li>
 
-<li>郝心怡, 仵皓雨, <strong>王宇骁</strong>, 张昕*. 人工智能时代设计课程驱动的跨学科自主学习范式. <em>新建筑</em>, 2025.</li>
+<li>郝心怡, 仵皓雨, <strong>王宇骁</strong>, 张昕*. 人工智能时代设计课程驱动的跨学科自主学习范式. <em>新建筑</em>. (2025)</li>
 </ul>
