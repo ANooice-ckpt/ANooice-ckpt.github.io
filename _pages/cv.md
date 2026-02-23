@@ -11,54 +11,41 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+**Tsinghua University**, Beijing  
+Ph.D. in Building Technology Science, 2023–present  
+
+**Harbin Institute of Technology**, Harbin  
+B.Arch. in Architecture, 2018–2023  
+B.Eng. in Artificial Intelligence, 2019–2022  
+
+---
+
+Technical Skills
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Building Performance & Simulation**  
+Rhino & Grasshopper, Revit, Ladybug, EnergyPlus, DesignBuilder  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+**Programming & Modeling**  
+Python, R  
+
+---
+
+Academic Service
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+- Member, Technical Committee (JTC-20), International Commission on Illumination (CIE)  
+- Lead, Architecture + Artificial Intelligence Research Group, Future Society  
+- Reviewer: *Journal of Building Engineering*, *Renewable Energy*  
+
+---
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+<ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
