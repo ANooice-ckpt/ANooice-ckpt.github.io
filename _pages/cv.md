@@ -9,6 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+.page__content a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+</style>
+
 Education
 ======
 
