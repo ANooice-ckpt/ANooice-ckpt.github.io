@@ -9,7 +9,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function () {
+    const stored = localStorage.getItem("theme");
+
+    if (!stored) {
+      localStorage.setItem("theme", "dark");
+      document.documentElement.className += " dark";
+    } else if (stored === "dark") {
+      document.documentElement.className += " dark";
+    }
+
+    document.documentElement.className =
+      document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  })();
 </script>
 
 <!-- For all browsers -->
