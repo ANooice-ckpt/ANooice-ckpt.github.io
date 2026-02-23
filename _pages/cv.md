@@ -12,23 +12,9 @@ redirect_from:
 Education
 ======
 
-**Tsinghua University**, Beijing  
-Ph.D. in Building Technology Science, 2023–present  
-
-**Harbin Institute of Technology**, Harbin  
-B.Arch. in Architecture, 2018–2023  
-B.Eng. in Artificial Intelligence, 2019–2022  
-
----
-
-Technical Skills
-======
-
-**Building Performance & Simulation**  
-Rhino & Grasshopper, Revit, Ladybug, EnergyPlus, DesignBuilder  
-
-**Programming & Modeling**  
-Python, R  
+- Ph.D. in Building Technology Science, Tsinghua University, 2023–present  
+- B.Arch. in Architecture, Harbin Institute of Technology, 2018–2023  
+- B.Eng. in Artificial Intelligence, Harbin Institute of Technology, 2019–2022  
 
 ---
 
