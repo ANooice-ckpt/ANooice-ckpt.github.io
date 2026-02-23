@@ -10,13 +10,13 @@ redirect_from:
 {% include base_path %}
 
 <style>
-.page__content a {
-  color: inherit;
-  text-decoration: none;
+.archive__item-title a {
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
-.page__content a:hover {
-  text-decoration: underline;
+.archive__item-title a:hover {
+  text-decoration: underline !important;
 }
 </style>
 
