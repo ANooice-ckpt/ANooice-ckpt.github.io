@@ -10,6 +10,13 @@ redirect_from:
 {% include base_path %}
 
 <style>
+/* 标题去粗体 */
+.archive__item-title {
+  font-weight: 400 !important;
+  font-size: 0.95rem !important;
+}
+
+/* 标题链接继承颜色 */
 .archive__item-title a {
   color: inherit !important;
   text-decoration: none !important;
@@ -18,8 +25,13 @@ redirect_from:
 .archive__item-title a:hover {
   text-decoration: underline !important;
 }
-</style>
 
+/* 整个 publication 字号缩小 */
+.archive__item {
+  font-size: 0.95rem !important;
+  margin-bottom: 0.6em !important;
+}
+</style>
 Education
 ======
 
