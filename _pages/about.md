@@ -21,7 +21,8 @@ My research investigates how built environments interact with individuals across
 
 ### Current Focus
 
-My current work centers on modeling individual exposure history within complex built environments, including time-resolved exposure trajectories, inter-individual exposure variability, exposure–response heterogeneity, and population-conditional expected exposure fields. The overarching aim is to support cross-scale, health-relevant risk analysis.
+- My current work centers on modeling **individual exposure history** within complex built environments, including time-resolved exposure trajectories, inter-individual exposure variability, exposure–response heterogeneity, and population-conditional expected exposure fields.
+- The overarching aim is to support cross-scale, health-relevant risk analysis.
 
 ---
 
