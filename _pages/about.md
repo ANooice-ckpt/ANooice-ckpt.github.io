@@ -13,9 +13,9 @@ My research investigates how built environments interact with individuals across
 
 - **Human–Environment Coupling**. Understanding how environmental conditions are perceived, mediated, and dynamically negotiated between occupants and built systems.
 
-- **Exposure and Health**. Moving beyond aggregate environmental metrics to quantify time-structured exposure received at the individual level, and examining how exposure heterogeneity translates into exposure–response heterogeneity.
+- **Exposure and Health**. Quantifying time-structured exposure received at the individual level, and examining exposure and response heterogeneity.
 
-- **Computational Design**. Developing quantitative and algorithmic frameworks that integrate environmental performance, human behavior, and uncertainty into design and evaluation processes.
+- **Computational Design**. Developing quantitative and algorithmic frameworks that integrate environmental performance and human behavior into environment design processes.
 
 ---
 
