@@ -14,13 +14,10 @@
 
     if (!stored) {
       localStorage.setItem("theme", "dark");
-      document.documentElement.className += " dark";
-    } else if (stored === "dark") {
-      document.documentElement.className += " dark";
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.setAttribute("data-theme", stored);
     }
-
-    document.documentElement.className =
-      document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   })();
 </script>
 
