@@ -10,30 +10,46 @@ redirect_from:
 {% include base_path %}
 
 <style>
-/* 标题去粗体 */
-.archive__item-title {
-  font-weight: 400 !important;
-  font-size: 0.95rem !important;
+
+/* 统一正文风格 */
+#main {
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
-/* 标题链接继承颜色 */
-.archive__item-title a {
-  color: inherit !important;
-  text-decoration: none !important;
+/* 所有列表统一缩进 */
+#main ul {
+  margin-left: 1.2em;
+  margin-bottom: 1em;
 }
 
-.archive__item-title a:hover {
-  text-decoration: underline !important;
+/* 列表项间距 */
+#main li {
+  margin-bottom: 0.5em;
 }
 
-/* 整个 publication 字号缩小 */
-.archive__item {
-  font-size: 0.95rem !important;
-  margin-bottom: 0.6em !important;
+/* 链接继承颜色（适配夜间模式） */
+#main a {
+  color: inherit;
+  text-decoration: none;
 }
+
+#main a:hover {
+  text-decoration: underline;
+}
+
+/* 标题大小控制 */
+#main h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+
 </style>
-Education
-======
+
+---
+
+## Education
 
 - Ph.D. in Building Technology Science, Tsinghua University, 2023–present  
 - B.Arch. in Architecture, Harbin Institute of Technology, 2018–2023  
@@ -41,8 +57,7 @@ Education
 
 ---
 
-Academic Service
-======
+## Academic Service
 
 - Member, Technical Committee (JTC-20), International Commission on Illumination (CIE)  
 - Lead, Architecture + Artificial Intelligence Research Group, Future Society  
@@ -50,9 +65,16 @@ Academic Service
 
 ---
 
-Publications
-======
+## Publications
 
+<ul>
 {% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
+  <li>
+    <a href="{{ post.doi }}" target="_blank">
+      {{ post.title }}
+    </a><br>
+    {{ post.authors }}<br>
+    {{ post.venue }} · {{ post.year }}
+  </li>
 {% endfor %}
+</ul>
