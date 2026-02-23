@@ -5,6 +5,30 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.pub-item {
+  font-size: 0.95rem;       /* 整体略微缩小 */
+  margin-bottom: 1.4em;
+}
+
+.pub-title a {
+  color: #000;              /* 标题改黑色 */
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  color: #666;              /* 作者灰色 */
+}
+
+.pub-venue {
+  font-weight: 600;         /* 期刊名加粗 */
+}
+</style>
+
 {% include base_path %}
 
 <h2>Journal Articles</h2>
@@ -12,10 +36,9 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% if post.category == "journal" %}
-    <div style="margin-bottom: 1.2em;">
+    <div class="pub-item">
       
-      <!-- 第一行：标题（跳转 DOI） -->
-      <div>
+      <div class="pub-title">
         <strong>
           <a href="{{ post.paperurl }}" target="_blank">
             {{ post.title }}
@@ -23,14 +46,12 @@ author_profile: true
         </strong>
       </div>
       
-      <!-- 第二行：作者 -->
-      <div>
+      <div class="pub-authors">
         {{ post.authors }}
       </div>
       
-      <!-- 第三行：期刊 · 年份 -->
       <div>
-        <em>{{ post.venue }}</em> · {{ post.date | date: "%Y" }}
+        <span class="pub-venue">{{ post.venue }}</span> · {{ post.date | date: "%Y" }}
       </div>
       
     </div>
@@ -44,9 +65,9 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% if post.category == "conference" %}
-    <div style="margin-bottom: 1.2em;">
+    <div class="pub-item">
       
-      <div>
+      <div class="pub-title">
         <strong>
           <a href="{{ post.paperurl }}" target="_blank">
             {{ post.title }}
@@ -54,12 +75,12 @@ author_profile: true
         </strong>
       </div>
       
-      <div>
+      <div class="pub-authors">
         {{ post.authors }}
       </div>
       
       <div>
-        <em>{{ post.venue }}</em> · {{ post.date | date: "%Y" }}
+        <span class="pub-venue">{{ post.venue }}</span> · {{ post.date | date: "%Y" }}
       </div>
       
     </div>
