@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-8215-6540"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Yuxiao-Wang-26"
   scopus           : # URL
   zotero           : # URL
