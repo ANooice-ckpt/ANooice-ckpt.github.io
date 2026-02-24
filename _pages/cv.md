@@ -47,8 +47,6 @@ redirect_from:
 
 </style>
 
----
-
 ## Education
 
 - Ph.D. in Building Technology Science, Tsinghua University, 2023–present  
