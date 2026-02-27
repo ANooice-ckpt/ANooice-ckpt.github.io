@@ -70,7 +70,7 @@ redirect_from:
 <ul>
 <li><strong>Yuxiao Wang</strong>, Yaoyao Zhang, Shaowei Cheng, Yu Zhang, Xin Zhang*. Towards a Predictive Paradigm for Individual Light Exposure History: A Trajectory-Based Modeling Framework. <em>Building and Environment</em>, 114422. (2026)</li>
   
-<li><strong>Yuxiao Wang</strong>, Dan Wang, Xin Zhang*. Higher greenery visibility is not necessarily better: A quantitative approach to evaluating window view quality in residential buildings. <em>Building and Environment</em>, 13563. (2025)</li>
+<li><strong>Yuxiao Wang</strong>, Dan Wang, Xin Zhang*. Higher greenery visibility is not necessarily better: A quantitative approach to evaluating window view quality in residential buildings. <em>Building and Environment</em>, 113563. (2025)</li>
 
 <li><strong>Yuxiao Wang</strong>, Xin Zhang*, Hongwei Chen. From Needs to Control: A Taxonomy of Indicators and Sensing Technologies for Occupant-Centric Smart Lighting Systems. <em>Energy and Buildings</em>, 339, 115740. (2025)</li>
 
