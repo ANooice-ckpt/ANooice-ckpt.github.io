@@ -68,6 +68,8 @@ redirect_from:
 <div class="section-title">First Author</div>
 
 <ul>
+<li><strong>Yuxiao Wang</strong>, Yaoyao Zhang, Shaowei Cheng, Yu Zhang, Xin Zhang*. Towards a Predictive Paradigm for Individual Light Exposure History: A Trajectory-Based Modeling Framework. <em>Building and Environment</em>, 114422. (2026)</li>
+  
 <li><strong>Yuxiao Wang</strong>, Xiaoyue Yan, Xin Zhang*, Di Zhang. A Multi-objective Optimization Framework for Designing Residential Green Space between Buildings Considering Outdoor Thermal Comfort, Indoor Daylight and Green View Index. <em>Sustainable Cities and Society</em>, 119, 106045. (2025)</li>
 
 <li><strong>Yuxiao Wang</strong>, Yunsong Han*, Yuran Wu, Elena Korkina, Zhibo Zhou, Vladimir Gagarin. An occupant-centric adaptive façade based on real-time and contactless glare and thermal discomfort estimation using deep learning algorithm. <em>Building and Environment</em>, 214, 108907. (2022)</li>
