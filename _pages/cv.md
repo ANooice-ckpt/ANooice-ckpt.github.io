@@ -59,7 +59,7 @@ redirect_from:
 
 - Member, Technical Committee (JTC-20), International Commission on Illumination (CIE)  
 - Lead, Architecture + Artificial Intelligence Research Group, Future League  
-- Reviewer: *Journal of Building Engineering*, *Renewable Energy*  
+- Reviewer: *Journal of Building Engineering*, *Renewable Energy*, *Cities*    
 
 ---
 
