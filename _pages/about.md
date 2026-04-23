@@ -11,18 +11,17 @@ My research investigates how built environments interact with individuals across
 
 ### Research Interest:
 
-- **Human–Environment Coupling**. Understanding how environmental conditions are perceived, mediated, and dynamically negotiated between occupants and built systems.
+- Individual exposure modeling in space and time.
 
-- **Exposure and Health**. Quantifying time-structured exposure received at the individual level, and examining exposure and response heterogeneity.
+- Exposure–response variability and heterogeneity.
 
-- **Computational Design**. Developing quantitative and algorithmic frameworks that integrate environmental performance and human behavior into environment design processes.
+- Computational methods for health-oriented built-environment design.
 
 ---
 
 ### Current Focus
 
-- My current work centers on modeling **individual exposure history** within complex built environments, including time-resolved exposure trajectories, inter-individual exposure variability, exposure–response heterogeneity, and population-conditional expected exposure fields.
-- The overarching aim is to support cross-scale, health-relevant risk analysis.
+- My current work focuses on exposure history, especially light exposure history, and its implications for cross-scale health risk assessment.
 
 ---
 
