@@ -7,55 +7,45 @@ author_profile: true
 
 {% include base_path %}
 
-<p class="page-intro">
+<p class="pub-page-intro">
 Selected work representing my current research trajectory. A complete publication list is available in the <a href="/cv/">CV</a>.
 </p>
 
-<div class="selected-pubs">
-
 {% assign selected_pubs = site.publications | where: "selected", true | sort: "order" %}
 
-{% for post in selected_pubs %}
+<div class="pub-grid">
+  {% for post in selected_pubs %}
+    {% assign target_url = post.paperurl | default: post.url %}
+    <a class="pub-card" href="{{ target_url }}" target="_blank" rel="noopener">
+      
+      {% if post.image %}
+      <div class="pub-card__media">
+        <img
+          src="{{ post.image | relative_url }}"
+          alt="{{ post.image_alt | default: post.title }}"
+          loading="lazy">
+      </div>
+      {% endif %}
 
-<a class="pub-card"
-   href="{{ post.paperurl }}"
-   target="_blank"
-   rel="noopener">
+      <div class="pub-card__body">
+        <div class="pub-card__meta">
+          {{ post.venue }} · {{ post.date | date: "%Y" }}
+        </div>
 
-  <div class="pub-card__media">
-    <img
-      src="{{ post.image | relative_url }}"
-      alt="{{ post.image_alt | default: post.title }}"
-      loading="lazy"
-    >
-  </div>
+        <h2 class="pub-card__title">{{ post.title }}</h2>
 
-  <div class="pub-card__body">
+        {% if post.summary %}
+        <p class="pub-card__summary">{{ post.summary }}</p>
+        {% endif %}
 
-    <div class="pub-card__meta">
-      {{ post.venue }} · {{ post.date | date: "%Y" }}
-    </div>
+        <div class="pub-card__authors">
+          {{ post.authors }}
+        </div>
 
-    <h2 class="pub-card__title">
-      {{ post.title }}
-    </h2>
-
-    <p class="pub-card__summary">
-      {{ post.summary }}
-    </p>
-
-    <div class="pub-card__authors">
-      {{ post.authors }}
-    </div>
-
-    <span class="pub-card__link">
-      View paper ↗
-    </span>
-
-  </div>
-
-</a>
-
-{% endfor %}
-
+        <div class="pub-card__link">
+          View paper →
+        </div>
+      </div>
+    </a>
+  {% endfor %}
 </div>
