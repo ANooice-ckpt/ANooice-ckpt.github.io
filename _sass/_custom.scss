@@ -284,11 +284,6 @@ a:focus {
   letter-spacing: -0.018em;
 }
 
-.masthead__menu-item.selected a {
-  color: var(--mono-white) !important;
-  border-bottom-color: var(--mono-white);
-}
-
 .greedy-nav .hidden-links {
   background: var(--mono-surface-2);
   border: 1px solid var(--mono-border);
@@ -1224,19 +1219,50 @@ button:focus {
 
 /* Top navigation */
 
-.greedy-nav .visible-links a,
-.greedy-nav .visible-links a:link,
-.greedy-nav .visible-links a:visited,
-.greedy-nav .visible-links a:active {
-  color: #d8d8d8 !important;
-  text-decoration: none !important;
+/* ==========================================================================
+   Masthead navigation: final override
+   ========================================================================== */
+
+/* Disable the template's animated underline */
+.masthead .greedy-nav .visible-links > li > a::before {
+  display: none !important;
 }
 
-.greedy-nav .visible-links a:hover,
-.greedy-nav .visible-links a:focus,
-.greedy-nav .visible-links .selected a {
-  color: #ffffff !important;
+/* Keep all three navigation items the same colour in every link state */
+.masthead .greedy-nav .visible-links > li > a,
+.masthead .greedy-nav .visible-links > li > a:link,
+.masthead .greedy-nav .visible-links > li > a:visited,
+.masthead .greedy-nav .visible-links > li > a:active {
+  background: transparent !important;
+  color: #d8d8d8 !important;
+
+  border-bottom: 1px solid transparent !important;
   text-decoration: none !important;
+  text-decoration-line: none !important;
+}
+
+/* Preserve the site-name hierarchy without changing its colour */
+.masthead .greedy-nav .visible-links > li:first-child > a {
+  color: #d8d8d8 !important;
+  font-weight: 650 !important;
+}
+
+/* Current page: same text colour, indicated only by a restrained grey line */
+.masthead .greedy-nav .visible-links > li.selected > a,
+.masthead .greedy-nav .visible-links > li.selected > a:link,
+.masthead .greedy-nav .visible-links > li.selected > a:visited,
+.masthead .greedy-nav .visible-links > li.selected > a:active {
+  color: #d8d8d8 !important;
+  border-bottom: 1px solid #707070 !important;
+  font-weight: inherit;
+}
+
+/* Hover and keyboard focus */
+.masthead .greedy-nav .visible-links > li:not(.selected) > a:hover,
+.masthead .greedy-nav .visible-links > li:not(.selected) > a:focus {
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  outline: none;
 }
 /* ==========================================================================
    CV publication entries
