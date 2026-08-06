@@ -143,7 +143,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  "/images/og-card.png"
+#og_image                 :  "/images/og-card.png"
 og_description           :  "Research on personal environmental exposure histories and health-oriented built-environment design."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
