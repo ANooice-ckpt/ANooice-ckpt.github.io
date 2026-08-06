@@ -1188,3 +1188,53 @@ button:focus {
 .cv-publications .cv-entry:hover {
   opacity: 1;
 }
+/* ==========================================================================
+   Final link-state overrides
+   ========================================================================== */
+
+/* Homepage action buttons */
+
+.page__content .profile-links a,
+.page__content .profile-links a:link,
+.page__content .profile-links a:visited,
+.page__content .profile-links a:active,
+.archive .profile-links a,
+.archive .profile-links a:link,
+.archive .profile-links a:visited,
+.archive .profile-links a:active {
+  border: 1px solid #4a4a4a !important;
+  background: #050505 !important;
+  color: #e8e8e8 !important;
+
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  box-shadow: none !important;
+}
+
+.page__content .profile-links a:hover,
+.page__content .profile-links a:focus,
+.archive .profile-links a:hover,
+.archive .profile-links a:focus {
+  border-color: #ffffff !important;
+  background: #0a0a0a !important;
+  color: #ffffff !important;
+
+  text-decoration: none !important;
+}
+
+/* Top navigation */
+
+.greedy-nav .visible-links a,
+.greedy-nav .visible-links a:link,
+.greedy-nav .visible-links a:visited,
+.greedy-nav .visible-links a:active {
+  color: #d8d8d8 !important;
+  text-decoration: none !important;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus,
+.greedy-nav .visible-links .selected a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
