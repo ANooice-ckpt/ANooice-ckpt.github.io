@@ -7,7 +7,7 @@ authors: "Yuxiao Wang, Dan Wang, Xin Zhang*"
 date: 2025-08-15
 venue: "Building and Environment"
 paperurl: "https://doi.org/10.1016/j.buildenv.2025.113563"
-selected: true
+selected: false
 order: 3
 image: "/images/publications/window-view-quality.webp"
 image_alt: "Quantitative evaluation of greenery visibility and residential window-view quality"
