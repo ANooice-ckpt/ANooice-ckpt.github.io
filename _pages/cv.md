@@ -59,6 +59,8 @@ redirect_from:
 
 <ul class="cv-publications">
   <li><a class="cv-entry" href="https://doi.org/10.26868/25222708.2025.1368" target="_blank" rel="noopener">Xiaoyue Yan, <strong>Yuxiao Wang</strong>, Weimin Zhuang<sup>*</sup>. Multi-objective optimization of energy, thermal comfort and daylighting for exhibition building design based on a spatial archetype. <em>Building Simulation 2025</em>, 2025.</a></li>
+  
+  <li>张昕<sup>*</sup>, <strong>王宇骁</strong>. 健康导向光环境设计：受光史驱动范式. <em>绿色建筑学报</em>, 2026.</li>
 
   <li>郝心怡, 仵皓雨, <strong>王宇骁</strong>, 张昕<sup>*</sup>. 人工智能时代设计课程驱动的跨学科自主学习范式. <em>新建筑</em>, 2025.</li>
 </ul>
