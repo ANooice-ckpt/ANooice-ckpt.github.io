@@ -473,7 +473,7 @@ a:focus {
   border: 1px solid var(--mono-border-light);
   border-radius: var(--content-radius);
 
-  background: var(--mono-surface-1);
+  background: transparent;
   color: var(--mono-text);
 
   font-size: 0.82rem;
@@ -1184,10 +1184,14 @@ button:focus {
   opacity: 1;
 }
 /* ==========================================================================
-   Final link-state overrides
+   Final homepage links and masthead navigation
    ========================================================================== */
 
-/* Homepage action buttons */
+
+/* --------------------------------------------------------------------------
+   Homepage links
+   Transparent background, monochrome border, identical visited state
+   -------------------------------------------------------------------------- */
 
 .page__content .profile-links a,
 .page__content .profile-links a:link,
@@ -1197,72 +1201,173 @@ button:focus {
 .archive .profile-links a:link,
 .archive .profile-links a:visited,
 .archive .profile-links a:active {
-  border: 1px solid #4a4a4a !important;
-  background: #050505 !important;
-  color: #e8e8e8 !important;
+  display: inline-block;
+
+  padding: 0.5rem 0.82rem;
+
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
+  color: #d8d8d8 !important;
+
+  border: 1px solid #484848 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+  outline: none !important;
+
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.2;
 
   text-decoration: none !important;
   text-decoration-line: none !important;
-  box-shadow: none !important;
+  text-decoration-color: transparent !important;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 .page__content .profile-links a:hover,
 .page__content .profile-links a:focus,
 .archive .profile-links a:hover,
 .archive .profile-links a:focus {
-  border-color: #ffffff !important;
-  background: #0a0a0a !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
   color: #ffffff !important;
+  border-color: #ffffff !important;
+
+  box-shadow: none !important;
+  outline: none !important;
 
   text-decoration: none !important;
 }
 
-/* Top navigation */
 
-/* ==========================================================================
-   Masthead navigation: final override
-   ========================================================================== */
+/* --------------------------------------------------------------------------
+   Masthead containers
+   Remove all residual coloured or grey backgrounds
+   -------------------------------------------------------------------------- */
 
-/* Disable the template's animated underline */
-.masthead .greedy-nav .visible-links > li > a::before {
-  display: none !important;
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.masthead .greedy-nav,
+.masthead .greedy-nav .visible-links,
+.masthead .greedy-nav .visible-links > li,
+.masthead .greedy-nav .visible-links > li.selected {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+
+  box-shadow: none !important;
 }
 
-/* Keep all three navigation items the same colour in every link state */
+
+/* --------------------------------------------------------------------------
+   Masthead links
+   No block, underline, border, or visited-state colour change
+   -------------------------------------------------------------------------- */
+
 .masthead .greedy-nav .visible-links > li > a,
 .masthead .greedy-nav .visible-links > li > a:link,
 .masthead .greedy-nav .visible-links > li > a:visited,
-.masthead .greedy-nav .visible-links > li > a:active {
-  background: transparent !important;
-  color: #d8d8d8 !important;
-
-  border-bottom: 1px solid transparent !important;
-  text-decoration: none !important;
-  text-decoration-line: none !important;
-}
-
-/* Preserve the site-name hierarchy without changing its colour */
-.masthead .greedy-nav .visible-links > li:first-child > a {
-  color: #d8d8d8 !important;
-  font-weight: 650 !important;
-}
-
-/* Current page: same text colour, indicated only by a restrained grey line */
+.masthead .greedy-nav .visible-links > li > a:active,
 .masthead .greedy-nav .visible-links > li.selected > a,
 .masthead .greedy-nav .visible-links > li.selected > a:link,
 .masthead .greedy-nav .visible-links > li.selected > a:visited,
 .masthead .greedy-nav .visible-links > li.selected > a:active {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+
   color: #d8d8d8 !important;
-  border-bottom: 1px solid #707070 !important;
-  font-weight: inherit;
+
+  border: 0 !important;
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+
+  box-shadow: none !important;
+  outline: none !important;
+
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-color: transparent !important;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* Hover and keyboard focus */
-.masthead .greedy-nav .visible-links > li:not(.selected) > a:hover,
-.masthead .greedy-nav .visible-links > li:not(.selected) > a:focus {
+
+/* Remove theme-generated bars and blocks */
+
+.masthead .greedy-nav .visible-links > li > a::before,
+.masthead .greedy-nav .visible-links > li > a::after,
+.masthead .greedy-nav .visible-links > li.selected > a::before,
+.masthead .greedy-nav .visible-links > li.selected > a::after {
+  content: none !important;
+  display: none !important;
+
+  width: 0 !important;
+  height: 0 !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* Site name */
+
+.masthead .greedy-nav .visible-links > li:first-child > a {
   color: #ffffff !important;
-  border-bottom-color: #ffffff !important;
-  outline: none;
+  font-weight: 650 !important;
+}
+
+
+/* Current page: slightly brighter text only */
+
+.masthead .greedy-nav .visible-links > li.selected > a,
+.masthead .greedy-nav .visible-links > li.selected > a:link,
+.masthead .greedy-nav .visible-links > li.selected > a:visited,
+.masthead .greedy-nav .visible-links > li.selected > a:active {
+  background: transparent !important;
+  color: #ffffff !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* Hover */
+
+.masthead .greedy-nav .visible-links > li > a:hover,
+.masthead .greedy-nav .visible-links > li > a:focus {
+  background: transparent !important;
+  color: #ffffff !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+/* Overflow / hamburger button */
+
+.masthead .greedy-nav > button,
+.masthead .greedy-nav > button:hover,
+.masthead .greedy-nav > button:focus,
+.masthead .greedy-nav > button:active {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+
+  -webkit-tap-highlight-color: transparent;
 }
 /* ==========================================================================
    CV publication entries
