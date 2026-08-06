@@ -45,9 +45,3 @@ Wearable and environmental sensing · spatiotemporal data fusion · machine lear
 <p>
 I am a PhD candidate in Building Science and Technology at Tsinghua University, advised by Prof. Xin Zhang. I serve on CIE JTC-20, lead the Architecture + Artificial Intelligence Research Group at Future League, and review for journals across building science, environmental psychology, urban studies, and energy research.
 </p>
-
-<div class="profile-links">
-  <a href="/publications/">Selected publications</a>
-  <a href="/cv/">Full CV</a>
-  <a href="https://scholar.google.com/citations?user=AyFhAMEAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
-</div>
