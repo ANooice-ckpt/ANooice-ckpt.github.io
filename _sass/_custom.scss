@@ -1238,3 +1238,69 @@ button:focus {
   color: #ffffff !important;
   text-decoration: none !important;
 }
+/* ==========================================================================
+   CV publication entries
+   ========================================================================== */
+
+.cv-publications {
+  margin-top: 0.65rem !important;
+  margin-bottom: 1.7rem !important;
+  margin-left: 1.15rem !important;
+  padding-left: 0.5rem !important;
+}
+
+.cv-publications li {
+  display: list-item;
+  margin-bottom: 0.72rem !important;
+  padding-left: 0.12rem !important;
+
+  color: var(--mono-text);
+  line-height: 1.62;
+
+  /* No manually inserted breaks */
+  white-space: normal;
+}
+
+.cv-publications li::marker {
+  color: var(--mono-text-tertiary);
+}
+
+.page__content .cv-publications a.cv-entry,
+.page__content .cv-publications a.cv-entry:link,
+.page__content .cv-publications a.cv-entry:visited,
+.page__content .cv-publications a.cv-entry:active,
+.archive .cv-publications a.cv-entry,
+.archive .cv-publications a.cv-entry:link,
+.archive .cv-publications a.cv-entry:visited,
+.archive .cv-publications a.cv-entry:active {
+  display: inline;
+
+  color: inherit !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-color: transparent !important;
+  border-bottom: 0 !important;
+}
+
+.page__content .cv-publications a.cv-entry:hover,
+.page__content .cv-publications a.cv-entry:focus,
+.archive .cv-publications a.cv-entry:hover,
+.archive .cv-publications a.cv-entry:focus {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  border-bottom: 0 !important;
+}
+
+.cv-publications .cv-entry strong,
+.cv-publications .cv-entry em,
+.cv-publications .cv-entry sup {
+  color: inherit !important;
+}
+
+.cv-publications sup {
+  position: relative;
+  top: -0.15em;
+  font-size: 0.7em;
+  line-height: 0;
+}
