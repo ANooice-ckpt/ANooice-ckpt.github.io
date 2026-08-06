@@ -564,8 +564,7 @@ a.pub-card:hover {
   aspect-ratio: 1 / 1;
 
   border-right: 1px solid var(--mono-border);
-
-  background: var(--mono-surface-3);
+  background: #f2f2f2;
 }
 
 .pub-card__media img {
@@ -573,20 +572,20 @@ a.pub-card:hover {
 
   width: 100%;
   height: 100%;
+  padding: 0.55rem;
+  box-sizing: border-box;
 
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 
   box-shadow: none !important;
-
   filter: grayscale(100%);
-  transition:
-    transform 180ms ease,
-    filter 180ms ease;
+
+  transition: filter 180ms ease;
 }
 
 .pub-card:hover .pub-card__media img {
-  transform: scale(1.012);
+  transform: none;
   filter: grayscale(100%) contrast(1.03);
 }
 
