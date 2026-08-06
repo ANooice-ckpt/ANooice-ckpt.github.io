@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Yuxiao Wang"
 title_separator          : "-"
 name                     : &name "Yuxiao Wang"
-description              : &description "Yuxiao Wang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description: &description "Research on personal environmental exposure histories, human-centred building science, and computational methods for health-oriented design."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://anooice-ckpt.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "ANooice.png"
   name             : "Yuxiao Wang (王宇骁)"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D candidate, Tsinghua University"
+  bio              : "PhD Candidate in Building Science and Technology"
   location         : "Beijing, China"
-  employer         : # "Red Brick University"
+  employer         : "Tsinghua University"
   uri              : # URL
   email            : "yuxiaowang.pt@gmail.com" 
 
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : True     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -143,8 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 :  "/images/og-card.png"
+og_description           :  "Research on personal environmental exposure histories and health-oriented built-environment design."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -302,7 +302,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins
