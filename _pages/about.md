@@ -1,13 +1,10 @@
 ---
-
 permalink: /
 title: "Research"
 author_profile: true
 redirect_from:
-
-* /about/
-* /about.html
-
+  - "/about/"
+  - "/about.html"
 ---
 
 <p class="research-lead">
@@ -22,23 +19,17 @@ My research links environmental fields, personally received exposure, exposure-h
 
   <div class="research-item">
     <h3>Exposure measurement</h3>
-    <p>
-      Measuring and reconstructing personally received exposure under real-world conditions.
-    </p>
+    <p>Measuring and reconstructing personally received exposure under real-world conditions.</p>
   </div>
 
   <div class="research-item">
     <h3>Exposure histories</h3>
-    <p>
-      Modelling the temporal structure, variability, and heterogeneity of environmental exposure.
-    </p>
+    <p>Modelling the temporal structure, variability, and heterogeneity of environmental exposure.</p>
   </div>
 
   <div class="research-item">
     <h3>Design and intervention</h3>
-    <p>
-      Translating exposure and human-response evidence into environmental evaluation and design.
-    </p>
+    <p>Translating exposure and human-response evidence into environmental evaluation and design.</p>
   </div>
 
 </div>
