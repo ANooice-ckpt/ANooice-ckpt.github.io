@@ -1130,3 +1130,61 @@ button:focus {
     animation-iteration-count: 1 !important;
   }
 }
+/* ==========================================================================
+   CV publication entries
+   ========================================================================== */
+
+.cv-publications {
+  margin-top: 0.65rem !important;
+  margin-bottom: 1.6rem !important;
+  margin-left: 1.15rem !important;
+  padding-left: 0.5rem !important;
+}
+
+.cv-publications li {
+  margin-bottom: 0.72rem !important;
+  padding-left: 0.12rem !important;
+
+  color: var(--mono-text);
+  line-height: 1.62;
+}
+
+.cv-publications li::marker {
+  color: var(--mono-text-tertiary);
+}
+
+.page__content .cv-publications a.cv-entry,
+.page__content .cv-publications a.cv-entry:visited,
+.archive .cv-publications a.cv-entry,
+.archive .cv-publications a.cv-entry:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  border-bottom: 0 !important;
+}
+
+.page__content .cv-publications a.cv-entry:hover,
+.page__content .cv-publications a.cv-entry:focus,
+.archive .cv-publications a.cv-entry:hover,
+.archive .cv-publications a.cv-entry:focus {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  border-bottom: 0 !important;
+}
+
+.cv-publications .cv-entry {
+  cursor: pointer;
+}
+
+.cv-publications .cv-entry strong {
+  color: inherit;
+}
+
+.cv-publications .cv-entry em {
+  color: inherit;
+}
+
+.cv-publications .cv-entry:hover {
+  opacity: 1;
+}
