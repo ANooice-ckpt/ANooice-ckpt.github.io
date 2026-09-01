@@ -22,7 +22,7 @@ redirect_from:
 <ul>
   <li>Member, Joint Technical Committee 20, International Commission on Illumination (CIE)</li>
   <li>Lead, Architecture + Artificial Intelligence Research Group, Future League</li>
-  <li>Reviewer for <em>Building and Environment</em>, <em>Journal of Building Engineering</em>, <em>Renewable Energy</em>, <em>Cities</em>, <em>JMIR mHealth and uHealth</em>, and <em>Journal of Environmental Psychology</em></li>
+  <li>Reviewer for <em>Building and Environment</em>, <em>Journal of Building Engineering</em>, <em>Renewable Energy</em>, <em>Cities</em>, <em>JMIR mHealth and uHealth</em>, <em>JMIR Cardio</em>, and <em>Journal of Environmental Psychology</em></li>
 </ul>
 
 <h2>Publications</h2>
