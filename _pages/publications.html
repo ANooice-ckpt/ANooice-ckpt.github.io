@@ -29,7 +29,7 @@ Selected work representing my current research trajectory. A complete publicatio
 
       <div class="pub-card__body">
         <div class="pub-card__meta">
-          {{ post.venue }} · {{ post.date | date: "%Y" }}
+          {{ post.venue }}{% if post.status %} · {{ post.status }}{% endif %} · {{ post.date | date: "%Y" }}
         </div>
 
         <h2 class="pub-card__title">{{ post.title }}</h2>
@@ -43,7 +43,7 @@ Selected work representing my current research trajectory. A complete publicatio
         </div>
 
         <div class="pub-card__link">
-          View paper →
+          {{ post.link_label | default: "View paper →" }}
         </div>
       </div>
     </a>
