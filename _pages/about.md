@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p class="research-lead">
-I study personal environmental exposure histories in built environments, spanning light, thermal, acoustic, and air-quality exposures.
+I study how environmental conditions and human activities jointly shape personal exposure histories, with a focus on their measurement, human responses, and population distributions.
 </p>
 
 <div class="research-grid">
@@ -24,7 +24,7 @@ I study personal environmental exposure histories in built environments, spannin
   </div>
 
   <div class="research-item">
-    <h3>Exposure distribution and intervention</h3>
+    <h3>Exposure distributions</h3>
     <p>Investigating how environmental conditions and human mobility shape population exposures and the benefits of interventions.</p>
   </div>
 
