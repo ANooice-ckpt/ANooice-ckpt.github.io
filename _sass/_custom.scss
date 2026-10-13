@@ -448,6 +448,29 @@ a:focus {
   line-height: 1.62;
 }
 
+.research-methods {
+  margin-top: -0.65rem;
+  margin-bottom: 2.8rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--mono-border-light);
+}
+
+.research-methods h3 {
+  margin: 0 0 0.55rem;
+  color: var(--mono-white);
+  font-size: 0.98rem;
+  font-weight: 650;
+  line-height: 1.4;
+  letter-spacing: -0.012em;
+}
+
+.research-methods p {
+  margin: 0;
+  color: var(--mono-text-secondary);
+  font-size: 0.89rem;
+  line-height: 1.62;
+}
+
 .compact-line {
   max-width: 850px;
 
