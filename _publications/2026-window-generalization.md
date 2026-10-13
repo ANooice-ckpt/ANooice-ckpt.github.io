@@ -9,7 +9,7 @@ venue: "Building and Environment"
 status: "Accepted"
 paperurl: "https://ssrn.com/abstract=6137875"
 link_label: "View earlier preprint →"
-selected: true
+selected: false
 order: 3
 summary: "Investigates cross-room generalization of window-opening prediction through feature-distribution distance, data-efficient adaptation, and mechanism-level interpretation."
 ---
