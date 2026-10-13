@@ -48,6 +48,8 @@ redirect_from:
 <h3>Corresponding Author</h3>
 
 <ul class="cv-publications">
+  <li><a class="cv-entry" href="https://ssrn.com/abstract=6137875" target="_blank" rel="noopener">Ziqi Zhang, <strong>Yuxiao Wang<sup>*</sup></strong>. Cross-Room Generalization of Window-Opening Models Under Distribution Shift: Feature Distance, Adaptation, and Mechanisms. <em>Building and Environment</em>, <strong>Accepted</strong>, 2026. (Earlier preprint at SSRN.)</a></li>
+
   <li>Hank Zhang, <strong>Yuxiao Wang<sup>*</sup></strong>, Yucun Chen, Liwen Zhang, Zeyu Wang. Olea europaea-inspired adaptive photovoltaic façades for balancing energy efficiency and visual comfort. <em>Advanced Building Skins Conference</em>, 2024.</li>
 
   <li><a class="cv-entry" href="https://doi.org/10.52842/conf.caadria.2025.3.193" target="_blank" rel="noopener">Yuheng Zhou, Hank Zhang, <strong>Yuxiao Wang<sup>*</sup></strong>, Bo Pang, Di Zhang, Jianhao Chen. Real-Time Multi-Objective Optimization Control of Partitioned Electrochromic Windows Using Neural Network. <em>CAADRIA 2025</em>, 2025.</a></li>
